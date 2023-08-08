@@ -26,7 +26,7 @@ export const Order = () => {
             <div class="first">First</div>
         </div>
         <div class="rectangle2-35">
-            <div class="_2">2</div>
+            <div class="_23">2</div>
         </div>
         <div class="rectangle2-34">
             <div class="last">Last</div>

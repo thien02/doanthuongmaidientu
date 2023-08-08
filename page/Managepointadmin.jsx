@@ -1,11 +1,11 @@
-import "../css/Revenue.css"
+import "../css/Managepointadmin.css"
 import Nav from "./nav"
 import icon_search from "../asset/img/magnifying-glass-solid.svg";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import order_image from "../asset/img/picture1.png";
 import image_Product from "../asset/img/shoe19_720x.webp"
 import { faStar} from "@fortawesome/free-solid-svg-icons";
-export const Revenue = () => {
+export const Managepointadmin = () => {
 
     library.add(faStar);
   
@@ -13,15 +13,26 @@ export const Revenue = () => {
       <div>
         <Nav/>   
         <img src={order_image} alt="" className="order_image"/>
-        <div class="rectangle-10"></div>
-        <div class="rectangle-11">
-            <div class="catagories">Catagories</div>
-            <div class="days1">DAYS</div>
-            <div class="months1">MONTHS</div>
-            <div class="quarters1">QUARTERS</div>
-            <div class="years1">YEARS</div>
+        <div class="rectangle4-9">
+            <div class="criteria">Criteria</div>
+            <button class="criteria-1">Criteria 1</button>
+            <button class="criteria-2">Criteria 2</button>
+            <button class="criteria-3">Criteria 3</button>
+
         </div>
-        <div class="rectangle-33">
+        <div class="rectangle4-10"></div>
+        <div class="rectangle4-11">
+            <div class="prieod">Prieod</div>            
+            <input type="checkbox" className="rectangle4-22" />
+            <div class="days1">DAYS</div>
+            <input type="checkbox" className="rectangle4-39" />
+            <div class="months1">MONTHS</div>
+            <input type="checkbox" className="rectangle4-40" />
+            <div class="quarters1">QUARTERS</div>
+            <input type="checkbox" className="rectangle4-41" />
+            <div class="years1">YEARS</div>            
+        </div>
+        <div class="rectangle4-33">
             <div class="revenue">REVENUE</div>
             <svg
                 class="star-regular-1"
@@ -96,22 +107,15 @@ export const Revenue = () => {
             <div class="mon1">Mon</div>
             <div class="mon2">Mon</div>
             <div class="mon3">Mon</div>
-            <div class="best-selling-products">BEST SELLING PRODUCTS</div>
-            <div class="product">Product</div>
-            <div class="name3">Name</div>
-            <div class="color">Color</div>
-            <div class="price">Price</div>
-            <div class="quantity">Quantity</div>
-            <div class="sold">Sold</div>
-            <div class="line-7"></div>            
-            <img src={image_Product} alt="" className="image_Product"/>
-            <div class="bast-shoe">BAST SHOE</div>
-            <div class="yellow">Yellow</div>
-            <div class="_70">$70</div>
-            <div class="_101">10</div>
-            <div class="_261">26</div>
-
-        </div>
+            <div class="best-selling-products">BEST SELLING PRODUCTS</div>          
+            <div class="name">Name</div>
+            <div class="totalpoint">Total Point</div>            
+            <div class="used">Used</div>           
+            <div class="line-7"></div>   
+            <div class="thuan">Thuan</div>
+            <div class="_100">100</div>        
+            <div class="_26">26</div>           
+        </div>       
       </div>      
     );
   };
